@@ -22,3 +22,8 @@ parts:
       
     stage-packages:
       - python
+
+  publish:
+    plugin: copy
+    files:
+      ./pmtris.py: bin/pmtris.py
