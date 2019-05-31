@@ -1,0 +1,24 @@
+name: pmtris  # check to see if it's available
+version: git
+summary: Poor Man's Tetris Clone # 79 char long summary
+description: |
+  Tetris in the terminal! 
+grade: stable # must be 'stable' to release into candidate/stable channels
+confinement: strict # use 'strict' once you have the right plugs
+
+apps:
+  pmtris:
+    command: python $SNAP/bin/pmtris.py
+     
+parts: 
+  pmtris:
+    source: https://github.com/kz6fittycent/pmtris
+    source-type: git
+    plugin: python
+    python-version: python2
+    
+    build-packages:
+      - python2
+      
+    stage-packages:
+      - python2
