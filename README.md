@@ -1,3 +1,5 @@
+[![Snap Status](https://build.snapcraft.io/badge/kz6fittycent/pmtris.svg)](https://build.snapcraft.io/user/kz6fittycent/pmtris)
+
 pmtris
 ======
 
@@ -16,5 +18,8 @@ Done
 * Add slam to bottom feature, via spacebar.
 * Add a save state option.
 * Add verbose help for new command line opts, using optparse.
+
+# SNAP INSTALLATION
+`sudo snap install pmtris --edge`
 
 ![](https://github.com/mhearse/pmtris/blob/master/screenshots/Screencast-2017.08.03-15.32.gif)
