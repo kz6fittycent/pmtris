@@ -367,9 +367,9 @@ if __name__=='__main__':
 
         # Check window size.
         [max_y, max_x] = myscreen.getmaxyx()
-        if max_y < 25 or max_x < 80:
+        if max_y < 50 or max_x < 100:
             curses.endwin()
-            print 'Screen too small.  Must be at least 80x25'
+            print 'Screen too small.  Must be at least 100x50'
             exit(2)
 
         ##############################################
