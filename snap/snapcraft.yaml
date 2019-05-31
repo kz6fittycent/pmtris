@@ -16,6 +16,8 @@ parts:
     source-type: git
     plugin: python
     python-version: python2
+    python-packages:
+      - numpy
     
     build-packages:
       - python
