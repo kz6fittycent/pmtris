@@ -18,7 +18,7 @@ parts:
     python-version: python2
     
     build-packages:
-      - python2
+      - python
       
     stage-packages:
-      - python2
+      - python
