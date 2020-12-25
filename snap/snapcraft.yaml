@@ -3,6 +3,8 @@ version: '1.0'
 summary: Poor Man's Tetris Clone
 description: |
   Tetris in the terminal! 
+
+base: core18
 grade: stable 
 confinement: strict 
 
