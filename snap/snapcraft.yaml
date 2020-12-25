@@ -1,10 +1,10 @@
-name: pmtris  # check to see if it's available
-version: git
-summary: Poor Man's Tetris Clone # 79 char long summary
+name: pmtris
+version: '1.0'
+summary: Poor Man's Tetris Clone
 description: |
   Tetris in the terminal! 
-grade: stable # must be 'stable' to release into candidate/stable channels
-confinement: strict # use 'strict' once you have the right plugs
+grade: stable 
+confinement: strict 
 
 apps:
   pmtris:
