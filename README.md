@@ -1,4 +1,4 @@
-[![Snap Status](https://build.snapcraft.io/badge/kz6fittycent/pmtris.svg)](https://build.snapcraft.io/user/kz6fittycent/pmtris)
+[![pmtris](https://snapcraft.io/pmtris/badge.svg)](https://snapcraft.io/pmtris)
 
 pmtris
 ======
